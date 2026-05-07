@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+        <div class="container">
+
+            <!-- Partie gauche -->
+            <div class="team">
+                <h3>HOME</h3>
+
+                <div class="number" id="left">0</div>
+
+                <div class="buttons">
+                    <button class="numadd" onclick="plusUnLeft()">+1</button>
+                    <button class="numadd" onclick="plusDeuxLeft()">+2</button>
+                    <button class="numadd" onclick="plusTroisLeft()">+3</button>
+                </div>
+            </div>
+
+            <!-- Bouton reset -->
+            <button id="resetall" onclick="return0()">
+                Reset Score
+            </button>
+
+            <!-- Partie droite -->
+            <div class="team">
+                <h3>GUEST</h3>
+
+                <div class="number" id="right">0</div>
+
+                <div class="buttons">
+                    <button class="numadd" onclick="plusUnRight()">+1</button>
+                    <button class="numadd" onclick="plusDeuxRight()">+2</button>
+                    <button class="numadd" onclick="plusTroisRight()">+3</button>
+                </div>
+            </div>
+
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
