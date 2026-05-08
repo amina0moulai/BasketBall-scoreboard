@@ -1,11 +1,37 @@
-# Getting Started
-Install the dependencies and run the project
-```
+# Basketball Scoreboard
+
+A simple basketball scoreboard built with JavaScript, HTML, and CSS.
+
+## Features
+
+- Add points for both teams
+- Reset the score instantly
+- Simple and clean interface
+- Practice with DOM manipulation and JavaScript functions
+
+## What I Learned
+
+This project helped me improve my skills in:
+
+- JavaScript functions
+- DOM manipulation
+- Event handling with buttons
+- Updating dynamic content with `textContent`
+- Creating a simple score algorithm
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+
+## How to Run the Project
+
 npm install
 npm start
-```
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
+
+
 ## About Scrimba
 
 At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
