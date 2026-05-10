@@ -26,9 +26,11 @@ This project helped me improve my skills in:
 - JavaScript
 
 ## How to Run the Project
+link = https://basketball-scoreboard-by.netlify.app
+### or
+- npm install
 
-npm install
-npm start
+- npm start
 
 
 
